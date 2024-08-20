@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: "Karla", sans-serif;
 }
 
 body {
@@ -16,3 +17,164 @@ main {
     align-items: center;
 }
 
+form {
+    background-color:  hsl(0, 0%, 100%);
+    border-radius: 10px;
+    padding: 30px 40px;
+    height: 75%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: hsl(187, 24%, 22%);
+}
+
+.name {
+    display: flex;
+    gap: 2em;
+}
+
+.fname {
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
+    width: 50%;
+}
+
+.fname label {
+    color: hsl(187, 24%, 22%);
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.fname input {
+    padding: 10px;
+    border: 1px solid hsl(169, 82%, 27%);
+    border-radius: 10px;
+}
+
+.lname {
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
+    width: 50%;
+}
+
+.lname label {
+    color: hsl(187, 24%, 22%);
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.lname input {
+    padding: 10px;
+    border: 1px solid hsl(169, 82%, 27%);
+    border-radius: 10px;
+}
+
+.mail {
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
+}
+
+.mail label {
+    color: hsl(187, 24%, 22%);
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.mail input {
+    padding: 10px;
+    border: 1px solid hsl(169, 82%, 27%);
+    border-radius: 10px;
+}
+
+.query {
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
+}
+
+.query label {
+    color: hsl(187, 24%, 22%);
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.flex {
+    display: flex;
+    gap: 1em;
+    width: 100%;
+}
+
+.flex label {
+    font-size: 15px;
+}
+
+.gen {
+    width: 50%;
+    padding: 10px;
+    border: 1px solid hsl(169, 82%, 27%);
+    border-radius: 10px;
+}
+
+.sup {
+    width: 50%;
+    padding: 10px;
+    border: 1px solid hsl(169, 82%, 27%);
+    border-radius: 10px;
+}
+
+.message {
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
+}
+
+.message label {
+    color: hsl(187, 24%, 22%);
+    font-weight: 400;
+    font-size: 18px;
+}
+
+textarea {
+    height: 50px;
+    border: 1px solid hsl(169, 82%, 27%);
+    border-radius: 10px;
+}
+
+.terms label {
+    color: hsl(187, 24%, 22%);
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.terms label input {
+    border: 2px solid hsl(169, 82%, 27%);
+    color: hsl(169, 82%, 27%);
+}
+
+input {
+    outline: none;
+}
+
+input:focus,
+input:focus-visible,
+textarea:focus {
+    border: 1px solid hsl(169, 82%, 27%);
+    outline: none;
+}
+
+button {
+    background-color: hsl(169, 82%, 27%);
+    border: none;
+    padding: 15px;
+    color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+}
