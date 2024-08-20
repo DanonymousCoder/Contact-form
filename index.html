@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- 
+        karla font
+    -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+
+    <!-- 
+        css
+    -->
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Contact form</title>
+</head>
+<body>
+    
+    <!-- 
+        main start
+    -->
+    <main>
+
+        <form action="#">
+
+            <h2>Contact Us</h2>
+
+            <div class="name">
+
+                <div class="fname">
+
+                    <label for="fname">Firstname</label>
+                    <input type="text" placeholder="Enter your first name">
+
+                </div>
+
+                <div class="lname">
+
+                    <label for="lname">Lastname</label>
+                    <input type="text" placeholder="Enter your last name">
+                    
+                </div>
+
+            </div>
+
+            <div class="email">
+
+                <label for="mail">Email Address</label>
+                <input type="email" name="mail" id="" placeholder="Enter your email address">
+
+            </div>
+
+            <div class="query">
+
+                <label for="query">Query</label>
+
+                <div class="flex">
+                    <label for="gen">
+                        <input type="radio" name="gen" id="">
+                        General Enquiry
+                    </label>
+                    
+                    <label for="sup">
+                        <input type="radio" name="sup" id="">
+                            Support Request
+                    </label>
+
+                </div>
+
+            </div>
+
+            <div class="message">
+                
+                <label for="message">Message</label>
+                <textarea name="message" id="">
+
+                </textarea>
+
+            </div>
+
+
+            <div class="terms">
+
+                <label for="term">
+                    <input type="checkbox" name="term" id="">
+                    I accept to being contacted by the team
+                </label>
+
+            </div>
+
+            <button onclick="submit()">Submit</button>
+
+
+
+        </form>
+
+    </main>
+
+    <!-- 
+        main end
+    -->
+
+
+    <!-- 
+        JS    
+    -->
+
+    <script src="script.js"></script>
+
+</body>
+</html>
